@@ -6,7 +6,7 @@ A simple memory game built with HTML, CSS, and JavaScript. Watch the pattern, re
 2. CSS3
 3. JavaScript (Vanilla)
 
-# How to Play
+## How to Play
 1. Enter **any key** to start the game.
 2. Watch the color sequence carefully.
 3. Click the buttons in the **same order**.
