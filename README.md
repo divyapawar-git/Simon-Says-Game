@@ -1,10 +1,10 @@
 # Simon-Says-Game
 A simple memory game built with HTML, CSS, and JavaScript. Watch the pattern, repeat it correctly, and see how far you can go!
 
-# Tech Stack 
-HTML5
-CSS3
-JavaScript (Vanilla)
+## Tech Stack 
+1. HTML5
+2. CSS3
+3. JavaScript (Vanilla)
 
 # How to Play
 1. Enter **any key** to start the game.
