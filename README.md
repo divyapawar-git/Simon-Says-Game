@@ -1,6 +1,9 @@
 # Simon-Says-Game
 A simple memory game built with HTML, CSS, and JavaScript. Watch the pattern, repeat it correctly, and see how far you can go!
 
+## Live Demo
+[Play the game here] http://127.0.0.1:5500/Minor%20JS%20project/miniJS(SimonSay).html
+
 ## Tech Stack 
 1. HTML5
 2. CSS3
