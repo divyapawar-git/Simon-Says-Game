@@ -2,7 +2,7 @@
 A simple memory game built with HTML, CSS, and JavaScript. Watch the pattern, repeat it correctly, and see how far you can go!
 
 ## Live Demo
-[Play the game here] https://miniJS(SimonSay).html
+[Play the game here]  https://divyapawar-git.github.io/Simon-Says-Game/
 
 ## Tech Stack 
 1. HTML5
