@@ -7,7 +7,7 @@ A simple memory game built with HTML, CSS, and JavaScript. Watch the pattern, re
 ## Tech Stack
 1. HTML5
 2. CSS3
-3. JavaScript(vanilla)
+3. JavaScript (Vanilla)
 
 ## How to Play
 1. Enter **any key** to start the game.
