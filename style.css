@@ -118,7 +118,7 @@ h1, h2, h3 {
 .instructions {
     margin: 1rem auto 0 auto;
     font-size: 0.9rem;
-    max-width: 400px;
+    max-width: 90vw;
     width: 500px;
     text-align: left;
     background-color: #f8f8f8;
@@ -126,6 +126,7 @@ h1, h2, h3 {
     border: 2px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-sizing: border-box;
 }
 
 .instructions h4 {
@@ -147,8 +148,9 @@ h1, h2, h3 {
 
 @media (max-width: 600px) {
     .instructions {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
         padding: 0.8rem;
+        width: 95%;
     }
 
     .instructions h4 {
