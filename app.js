@@ -46,7 +46,7 @@ function levelUp() {
     level++;
     h2.innerText = `Level ${level}`;
 
-    let randIdx = Math.floor(Math.random()*3);
+    let randIdx = Math.floor(Math.random() * btns.length);
     let randColor = btns[randIdx];
     let randbtn = document.querySelector(`.${randColor}`);
     
@@ -69,6 +69,7 @@ function checkAns(idx){
             highScore=level;
             localStorage.setItem("highScore", highScore);
             document.getElementById("highscore").innerText = `High Score : ${highScore}`;
+            console.log("New high score saved:", highScore);
         }
         h2.innerHTML = `Game Over! Your score was <b>${level}</b> <br> Press any key to start`;
         document.querySelector("body").style.backgroundColor = "red";
@@ -105,4 +106,5 @@ function reset(){
 }
 
 let highScore = localStorage.getItem("highScore") || 0;
+highScore = Number(highScore);
 document.getElementById("highscore").innerText = `High Score : ${highScore}`;
